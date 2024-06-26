@@ -1,0 +1,224 @@
+/* Start of Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+/* End of imports */            
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    transition: 0.8s;
+}
+
+.background-clock {
+    width: 100%;
+    margin-top: 150px;
+    border-radius: 20px;
+    position: absolute;
+    transition: 0.8s;
+}
+
+.time {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 80px;
+    display: inline;
+}
+
+.stat {
+    display: inline;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.date {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.changer {
+    height: 60px;
+    width: 360px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+
+.disTable {
+    border-collapse: separate;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+    cursor: default;
+    font-family: 'Teko', sans-serif;
+}
+
+td {
+    width: 110px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.displayClock {
+    background-color: rgb(134, 134, 134);
+}
+
+.background-stop {
+    opacity: 0;
+    width: 100%;
+    margin-top: 150px;
+    border-radius: 20px;
+    position: absolute;
+    transition: 0.8s;
+}
+
+.background-timer {
+    opacity: 0;
+    width: 100%;
+    margin-top: 150px;
+    border-radius: 20px;
+    position: absolute;
+    transition: 0.8s;
+}
+
+.stoptime {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+.stopstart {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    padding-left: 5px;
+}
+
+.playSvg {
+    transition: 0.3s;
+}
+
+.stopSVG {
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.increase {
+    display: inline;
+}
+
+.hrsInput {
+    width: 80px;
+    height: 60px;
+}
+.minInput {
+    width: 80px;
+    height: 60px;
+}
+.secInput {
+    width: 80px;
+    height: 60px;
+}
+
+.background-timer {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.increaseSvg {
+    transition: 0.6s;
+}
+
+.decreaseSvg {
+    rotate: 180deg;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+
+.timerTable {
+    text-align: center;
+    cursor: default;
+    font-family: 'Teko', sans-serif;
+}
+
+.timertd {
+    width: 20px;
+    padding: 2px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.numInput {
+    font-family: 'Teko', sans-serif;
+    padding-top: 5px;
+    color: white;
+    font-size: 80px;
+    background-color: rgb(32, 32, 32);
+    border: 0;
+    opacity: 1;
+}
+
+.tss {
+    margin-top: 20px;
+}
+
+.switchMode {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 40px;
+    background-color: white;
+    bottom: 50px;
+    right: 50px;
+}
+
+.darkSVG {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    rotate: -10deg;
+    margin-top: 16px;
+}
+
+.lightSVG {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    rotate: -10deg;
+    margin-top: 19px;
+    opacity: 0;
+}
